@@ -1,14 +1,18 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ReactDOM from 'react-dom'; 
+import React, {Component} from 'react';
+import HelloComponent from './HelloComponent';
+import Test from './LifecycleComponent';
+import FormLogin from './formLogin';
 
 function App() {
   return (
-    <div className="App">
+    <div class="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         Halo Dunia!
         </p>
         <a
           className="App-link"
@@ -19,6 +23,13 @@ function App() {
           Learn React
         </a>
       </header>
+      <div class="praktikum">
+        <HelloComponent/>
+        <Test/>
+      </div>
+      <div>
+        <FormLogin/>
+      </div>
     </div>
   );
 }
