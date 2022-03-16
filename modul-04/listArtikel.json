@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1647382572989,
+      "title": "Nama Saya",
+      "body": "Ahmad Sofyan Argyanto"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
