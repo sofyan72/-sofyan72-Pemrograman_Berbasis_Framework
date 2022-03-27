@@ -12,7 +12,8 @@ class MahasiswaPost extends Component{
             alamat: "",
             hp: "",
             angkatan: "",
-            status: ""
+            status: "",
+            lahir:""
         }
     }
 
@@ -101,6 +102,12 @@ class MahasiswaPost extends Component{
                             <textarea className="form-control" id="status" name="status" rows="1" onChange={this.handleTambahMahasiswa}></textarea>
                         </div>
                     </div>
+                    <div className="form-group-row">
+                        <label htmlFor="status" className="col-sm-2 col-form-label">Umur Mahasiswa</label>
+                        <div className="col-sm-10">
+                            <textarea className="form-control" id="umur" name="umur" rows="1" onChange={this.handleTambahMahasiswa}></textarea>
+                        </div>
+                    </div>
 
                     <button type="submit" className="btn btn-primary mt-3" onClick={this.handleTombolSimpan}>Simpan</button>
                 </div>
@@ -116,7 +123,8 @@ class MahasiswaPost extends Component{
                         hp={mahasiswa.hp} 
                         angkatan={mahasiswa.angkatan} 
                         status={mahasiswa.status} 
-                        idMahasiswa={mahasiswa.id} 
+                        idMahasiswa={mahasiswa.id}
+                        umur={mahasiswa.umur}
                         hapusMahasiswa={this.handleHapusMahasiswa} />
                     })
                 }

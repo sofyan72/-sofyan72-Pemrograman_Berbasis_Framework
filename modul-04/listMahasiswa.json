@@ -15,6 +15,27 @@
       "hp": "081802023523",
       "angkatan": 2014,
       "status": "lulus"
+    },
+    {
+      "id": 1647826062844,
+      "nim": "19837483",
+      "nama": "ahmad",
+      "alamat": "jl katulistiwa",
+      "hp": "0812839123",
+      "angkatan": "2019",
+      "status": "aktif",
+      "lahir": "19/04/2001"
+    },
+    {
+      "id": 1647831473213,
+      "nim": "21342343324",
+      "nama": "argy",
+      "alamat": "jl borobudur\n86",
+      "hp": "089979845345",
+      "angkatan": "2019",
+      "status": "aktif",
+      "lahir": "",
+      "umur": "20"
     }
   ],
   "comments": [],
