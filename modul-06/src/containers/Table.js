@@ -14,21 +14,21 @@ class Table extends Component {
  <nav style={{ marginTop: "60px" }}>
  <ol className="breadcrumb">
  <li
- className={"breadcrumb-item "+ (this.props.visibilityFilter === SHOW_ALL ?
+ className={"breadcrumb-item "+ (this.props.visibilityFilter === SHOW_ALL ? 
 'active' : '') }
  onClick={() => this.props.setVisibilityFilter(SHOW_ALL)}
  >
  All
  </li>
  <li
- className={"breadcrumb-item "+ (this.props.visibilityFilter ===
+ className={"breadcrumb-item "+ (this.props.visibilityFilter === 
 SHOW_COMPLETED ? 'active' : '') }
  onClick={() => this.props.setVisibilityFilter(SHOW_COMPLETED)}
  >
  Completed
  </li>
  <li
- className={"breadcrumb-item "+ (this.props.visibilityFilter === SHOW_ACTIVE ?
+ className={"breadcrumb-item "+ (this.props.visibilityFilter === SHOW_ACTIVE ? 
 'active' : '') }
  onClick={() => this.props.setVisibilityFilter(SHOW_ACTIVE)}
  >
@@ -104,7 +104,6 @@ const getVisibleTodos = (todos, filter) => {
  throw new Error("Unknown filter: " + filter);
  }
 };
-
 const mapStateToProps = state => {
     return { todos: getVisibleTodos(state.todos, state.visibilityFilter),
     visibilityFilter: state.visibilityFilter

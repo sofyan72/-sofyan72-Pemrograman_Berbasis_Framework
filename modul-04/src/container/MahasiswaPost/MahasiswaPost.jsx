@@ -13,7 +13,8 @@ class MahasiswaPost extends Component{
             hp: "",
             angkatan: "",
             status: "",
-            lahir:""
+            lahir:"",
+            waktu:"timestamp = new Date()"
         }
     }
 
@@ -107,6 +108,11 @@ class MahasiswaPost extends Component{
                         <div className="col-sm-10">
                             <textarea className="form-control" id="umur" name="umur" rows="1" onChange={this.handleTambahMahasiswa}></textarea>
                         </div>
+                    </div><div className="form-group-row">
+                        <label htmlFor="status" className="col-sm-2 col-form-label">waktu</label>
+                        <div className="col-sm-10">
+                            <textarea className="form-control" id="waktu" name="waktu" rows="1" onChange={this.handleTambahMahasiswa}></textarea>
+                        </div>
                     </div>
 
                     <button type="submit" className="btn btn-primary mt-3" onClick={this.handleTombolSimpan}>Simpan</button>
@@ -125,6 +131,7 @@ class MahasiswaPost extends Component{
                         status={mahasiswa.status} 
                         idMahasiswa={mahasiswa.id}
                         umur={mahasiswa.umur}
+                        waktu={mahasiswa.waktu}
                         hapusMahasiswa={this.handleHapusMahasiswa} />
                     })
                 }

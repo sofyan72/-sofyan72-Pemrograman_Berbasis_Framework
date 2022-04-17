@@ -1,0 +1,29 @@
+{
+  "mahasiswa": [
+    {
+      "NIM": 180823453,
+      "nama": "Mahasiswa 1",
+      "alamat": "JL. Soekarno Hatta No. 9 Malang",
+      "hp": "081802023249",
+      "angkatan": 2018,
+      "status": "aktif"
+    },
+    {
+      "NIM": 140823453,
+      "nama": "Mahasiswa X",
+      "alamat": "JL. Menur No. 9 Surabaya",
+      "hp": "081802023523",
+      "angkatan": 2014,
+      "status": "lulus"
+    },
+    {
+      "id": 1650233665333,
+      "nim": "1941720198",
+      "nama": "Ahmad Sofyan Argyanto",
+      "alamat": "jl katulistiwa",
+      "hp": "08123847238",
+      "angkatan": "19",
+      "status": "aktif"
+    }
+  ]
+}

@@ -14,6 +14,7 @@ const Mahasiswa = (props) => {
                     <p className="angkatan-mahasiswa">{props.angkatan}</p>
                     <p className="status-mahasiswa">{props.status}</p>
                     <p className="umur-mahasiswa">{props.umur}</p>
+                    <p className="waktu">{props.waktu}</p>
                     <button className="btn btn-sm btn-warning" onClick={() => props.hapusMahasiswa(props.idMahasiswa)}>Hapus</button>
             </div>
         </div>
